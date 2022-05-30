@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 60px;
+  width: 100%;
+  background: transparent;
+  z-index: 1030;
+  box-shadow: none;
+}
+
+.untransparentHeader{
+  background: #333333;
+  box-shadow: 0 0 15px 0 rgb(0 0 0)
+
+}
